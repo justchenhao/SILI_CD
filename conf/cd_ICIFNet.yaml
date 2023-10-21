@@ -1,0 +1,23 @@
+# model
+model_name: 'ICIFNet'
+pretrained: 'imagenet'
+head_pretrained: False
+loss_name: 'deep_ce'
+n_class: 2
+
+# data
+num_workers: 4
+batch_size: 8
+dataset: 'CDDataset'
+data_name: 'LEVIR'
+split: 'train'
+split_val: 'val'
+img_size: 256
+val_data_norm: True
+with_dataset_aug: True
+
+# optimize
+optim_mode: 'sgd'
+lr: 0.01
+lr_policy: "linear"
+max_epochs: 200

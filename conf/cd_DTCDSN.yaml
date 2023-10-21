@@ -1,0 +1,23 @@
+# model
+model_name: 'DTCDSN'
+pretrained: None
+head_pretrained: False
+loss_name: 'DTCDSN_loss'
+n_class: 1
+
+# data
+num_workers: 4
+batch_size: 8
+dataset: 'CDDataset'
+data_name: 'LEVIR'
+split: 'train'
+split_val: 'val'
+img_size: 256
+val_data_norm: True
+with_dataset_aug: True
+
+# optimize
+optim_mode: 'adam'
+lr: 0.001
+lr_policy: "step"
+max_epochs: 200
