@@ -4,11 +4,11 @@ Here, we provide the pytorch implementation of the paper: Continuous Cross-resol
 
 For more ore information, please see our published paper at IEEE [TGRS](https://ieeexplore.ieee.org/document/10287990) or [arxiv](https://arxiv.org/abs/2305.14722).
 
-![img](images\continuous_cross_resolution_cd.png)
+![img](images/continuous_cross_resolution_cd.png)
 
 The pipeline of our proposed scale-invariant learning with implicit neural networks for remote sensing image change detection is illustrated as follows:
 
-![img](images\sili_pipeline.png)
+![img](images/sili_pipeline.png)
 
 # Requirements
 
