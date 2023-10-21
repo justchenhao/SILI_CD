@@ -138,12 +138,12 @@ If you use this code for your research, please cite our paper:
 ```latex
 @Article{chen2023,
     title={Continuous Cross-resolution Remote Sensing Image Change Detection},
-    author={Hao Chen, Zipeng Qi and Zhenwei Shi},
+    author={Hao Chen, Haotian Zhang, Keyan Chen, Chenyao Zhou, Song Chen, Zhengxia Zou, Zhenwei Shi},
     year={2023},
     journal={IEEE Transactions on Geoscience and Remote Sensing},
     volume={},
     number={},
-    pages={1-19},
+    pages={1-21},
     doi={10.1109/TGRS.2023.3325829}
 }
 ```
