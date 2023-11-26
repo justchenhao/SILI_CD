@@ -106,10 +106,10 @@ def init_net(net, init_type='normal', init_gain=0.02, gpu_ids=[]):
 
     init_weights(net, init_type, init_gain=init_gain)
     #TODO: update to torch2.0
-    torch_version = torch.__version__
-    if torch_version.split('.')[0] == '2' and torch.cuda.get_device_capability()[0] >= 7.0:
-        net = torch.compile(net)
-        print(f'using: {torch_version}~~~~~~~~~')
+    # torch_version = torch.__version__
+    # if torch_version.split('.')[0] == '2' and torch.cuda.get_device_capability()[0] >= 7.0:
+    #     net = torch.compile(net)
+    #     print(f'using: {torch_version}~~~~~~~~~')
     return net
 
 
